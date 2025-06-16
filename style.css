@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.center a {
+  margin:15px;
+  color: #333;
+  font-size: 14px;
+  font-family: ;
+}
+.button {
+  display: flex;
+  align-items: center;
+}
+.signin {
+  color: #333;
+  font-size: 14px;
+  padding: 8px;
+  
+}
+.get-started {
+  background-color: #c4f07f;
+  font-weight: bold;
+  font-size: 14px;
+}
