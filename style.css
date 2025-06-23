@@ -132,6 +132,7 @@
     height: 350px;
     margin-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 200px
 }
 .card .card-header {
     margin-bottom: 0px;
@@ -144,38 +145,40 @@
 .card-container {
   display: flex;
   gap: 20px; 
+  font-size: x-small;
 }
 .card-container p {
   margin: 10px;
 }
-.card .investment-info {
+.investment-info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-.total{
-  text-align: right;
-  margin-bottom:10px ;
-}
-.year{
-  text-align: left;
+    font-size:x-small;
 }
 .card .chart img {
-    width: 280px;
+    width: 230px;
     height: 140px;
     border-radius: 8px;
     background: #ccc;
+    margin-top: 10px;
 }
 .discription{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 200px;
 }
 .discription-card {
     background-color: #f9f9f9;
     padding: 15px;
-    border-left: 1px solid #0d220d;
-    margin-top: 80px;
+    margin-top:40px;
     margin-left: 15px;
-    font-size: x-small;
+    font-size: 15px;
+}
+.discription-card h3{
+  font-size:21px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-left: 3px solid #0d220d;
+   padding: 10px;
 }
 .discription-text{
     margin-top: 40px;
