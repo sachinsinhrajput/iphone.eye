@@ -115,11 +115,11 @@
     display: flex;
     justify-content: center;
     font-size: 32px;
-    margin-bottom: 50px;
 }
 .content {
     display: flex;
     gap: 80px;
+    margin-top: 0px;
 }
 .card {
     margin-left: 80px;
@@ -130,9 +130,7 @@
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 350px;
-    margin-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 200px
 }
 .card .card-header {
     margin-bottom: 0px;
@@ -165,14 +163,14 @@
 }
 .discription{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 200px;
 }
 .discription-card {
-    background-color: #f9f9f9;
+    background-color: #f8f3f3;
     padding: 15px;
     margin-top:40px;
     margin-left: 15px;
     font-size: 15px;
+    border-radius: 20px;
 }
 .discription-card h3{
   font-size:21px;
@@ -183,4 +181,76 @@
 .discription-text{
     margin-top: 40px;
     font-size:15px;   
+}
+
+
+.blackbody{
+  background-color: #0b0b0b;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 850px;
+  border-radius: 20px;
+}
+.blackbody .text {
+  color: #fff;
+  font-size:xx-small;
+  padding-top:40px ;
+  margin-left: 60px;
+}
+
+.blackbody h1 {
+  font-size: 24px;
+  margin-left:235px;
+}
+
+.blackbody .intro {
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #ccc;
+  margin-left: 200px;
+  font-size: x-small;
+}
+
+.blackcard{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: 140px;
+}
+
+.blackcard-content{
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ffffff5b;
+  
+}
+.blackcard img {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  border-bottom:2px solid #ffffff5b ;
+  padding-bottom: 20px;
+  margin-left: 150px;
+}
+
+.blackcard-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50px;
+}
+
+.blackcard-content p {
+  color: #bbb;
+  margin-bottom: 10px;
+  font-size: xx-small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50px;
+}
+
+.blackcard-content a {
+  color: #c8f38f;
+  font-weight: bold;
+  font-size: x-small;
+  margin-left: 50px;
 }
