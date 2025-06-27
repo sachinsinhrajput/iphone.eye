@@ -1,3 +1,8 @@
+.template{
+  width: 100%;
+  background-color: white;
+  border: 2px solid black;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -251,6 +256,40 @@
 .blackcard-content a {
   color: #c8f38f;
   font-weight: bold;
-  font-size: x-small;
-  margin-left: 50px;
+  font-size: xx-small;
+  margin-right:150px;
+  text-decoration: none;
+}
+
+
+.paragraph{
+  background-color: #0d3932;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.paragraph-content {
+  max-width: 600px;
+  
+}
+
+.paragraph .author {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.paragraph .author span {
+  color: #ccc;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #fff;
+}
+.stat p {
+  margin: 0.5rem 0 0;
+  color: #555;
 }
