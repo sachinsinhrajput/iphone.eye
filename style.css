@@ -2,6 +2,7 @@
   width: 100%;
   background-color: white;
   border: 2px solid black;
+  border-radius: 25px;
 }
 .header {
   display: flex;
@@ -193,7 +194,7 @@
   background-color: #0b0b0b;
   color: #fff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 850px;
+  height: 920px;
   border-radius: 20px;
 }
 .blackbody .text {
@@ -220,7 +221,7 @@
   display: flex;
   justify-content:center;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   margin-right: 140px;
 }
 
@@ -263,33 +264,47 @@
 
 
 .paragraph{
-  background-color: #0d3932;
-  color: #fff;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  display: inline-block;
+  background-color: #124d43;
+  text-align: left;
+  padding-left: 80px;
+  border: 1px solid #000000 ;
+  height: 280px;
+  width:  550px ;
+  margin-left: 135px;
+  border-radius: 20px;
+  position: relative;
 }
-
 .paragraph-content {
-  max-width: 600px;
-  
+  font-size: 19px;
+  padding-top: 30px; 
+  display: inline-block;
+}
+.paragraph .author {
+  display: flex;
+  text-align: left;
+  font-size: x-small;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
-.paragraph .author {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-}
-.paragraph .author span {
-  color: #ccc;
-}
+
 .stats {
   display: flex;
   justify-content: space-around;
-  padding: 2rem;
   background-color: #fff;
+  margin-top: 50px;
 }
 .stat p {
-  margin: 0.5rem 0 0;
-  color: #555;
+  color: #000000;
+  text-align: center;
+  font-size: x-small ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stat h2 {
+  font-size: xx-large;
+  margin: 8px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
