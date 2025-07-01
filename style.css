@@ -1,9 +1,3 @@
-.template{
-  width: 100%;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 25px;
-}
 .header {
   display: flex;
   justify-content: space-between;
@@ -307,4 +301,73 @@
   color: #000000;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.builder{
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+.builder a{ 
+  font-weight: bold;
+  font-size: 32px;
+}
+.builder p{
+  font-size: 16px;
+}
+
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+padding-left: 100px;
+padding-right: 100px;
+margin-top: 50px;
+}
+
+.feature-box {
+  background-color: #f8efe7;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.demobtn{
+  border-radius: 20px;
+  margin-top: 100px;
+  background-image:url(bgimage.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+}
+.reqdemo h1{
+  font-size: 32px;
+  color: white;
+  margin-bottom: 0px;
+}
+.reqdemo h2{
+  margin-top: 0px;
+  font-size: 32px;
+  color: white;
+   margin-right: px;
+}
+.reqdemo p{
+  font-size: x-small;
+  margin-left: 100px;
+  padding-top: 30px;
+  margin-right: 700px;
+  color: white;
+  margin-bottom: 0px;
+}
+.reqbutton{
+  background-color: #c3e093;
+  font-size: 13px;
+  border-radius: 20px;
+  margin-left: 800px;
+  margin-right: 0px;
+  padding: 5px;
+  margin-top:px;
 }
