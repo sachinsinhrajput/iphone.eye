@@ -6,12 +6,14 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: left;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
+  font-weight: 500;
 }
 .center a {
   font-size: 15px;
   margin: 15px;
+  color: black;
+  text-decoration: none;
 } 
 .name{
   margin-top: 15px;
@@ -85,14 +87,12 @@ body{
   color: white;
   font-size: small;
   margin-top: 0px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 0px;
 }
 .hadding{
   color: white;
   font-size: xx-large;
   margin-bottom: 0px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .middle p{
   padding-top: 30px;
@@ -117,10 +117,6 @@ body{
   font-size: xx-large;
   margin-left: 170px; 
 }
-.supporthadding{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .supporthadding h1 {
     display: flex;
     justify-content: center;
@@ -130,6 +126,7 @@ body{
     display: flex;
     gap: 80px;
     margin-top: 0px;
+    margin-bottom: 60px;
 }
 .card {
     margin-left: 80px;
@@ -140,7 +137,6 @@ body{
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 350px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card .card-header {
     margin-bottom: 0px;
@@ -171,34 +167,36 @@ body{
     background: #ccc;
     margin-top: 10px;
 }
-.discription{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .discription-card {
     background-color: #f8f3f3;
     padding: 15px;
     margin-top:40px;
     margin-left: 15px;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 20px;
 }
 .discription-card h3{
+  margin-top: -10px;
   font-size:21px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    border-left: 3px solid #0d220d;
    padding: 10px;
 }
+.discription-card p {
+    margin-top: -20px;
+    font-size: 12px;
+    color: #333;
+    margin-left: 12px;
+}
 .discription-text{
     margin-top: 40px;
-    font-size:15px;   
+    font-size:12px;   
 }
 
 
 .blackbody{
   background-color: #0b0b0b;
   color: #fff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 920px;
+  height: 1000px;
   border-radius: 20px;
 }
 .blackbody .text {
@@ -238,7 +236,6 @@ body{
   width: 140px;
   height: 140px;
   border-radius: 10px;
-  border-bottom:2px solid #ffffff5b ;
   padding-bottom: 20px;
   margin-left: 150px;
 }
@@ -246,7 +243,6 @@ body{
 .blackcard-content h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 50px;
 }
 
@@ -254,7 +250,6 @@ body{
   color: #bbb;
   margin-bottom: 10px;
   font-size: xx-small;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 50px;
 }
 
@@ -268,7 +263,6 @@ body{
 
 
 .paragraph{
-  display: inline-block;
   background-color: #124d43;
   text-align: left;
   padding-left: 80px;
@@ -277,7 +271,7 @@ body{
   width:  550px ;
   margin-left: 135px;
   border-radius: 20px;
-  position: relative;
+  font-weight: 500;
 }
 .paragraph-content {
   font-size: 19px;
@@ -303,14 +297,12 @@ body{
   color: #000000;
   text-align: center;
   font-size: x-small ;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .stat h2 {
   font-size: xx-large;
   margin: 8px;
   color: #000000;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .builder{
@@ -318,14 +310,23 @@ body{
   justify-content: center;
   margin-top: 400px;
 }
-.builder a{ 
+.buiderhadding { 
   font-weight: bold;
   font-size: 32px;
 }
 .builder p{
+  font-weight: 300;
   font-size: 16px;
 }
 
+.whitebody {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+  height: 550px;
+  position: relative;
+}
 
 .features {
   display: grid;
@@ -346,30 +347,31 @@ border-bottom-right-radius:20px ;
 }
 
 .demobtn{
+  margin-top: -20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 100px;
   background-image:url(bgimage.png);
   background-repeat: no-repeat;
   background-size:cover;
-  height: 240px;
+  height: 290px;
 }
 .reqdemo h1{
   font-size: 32px;
   color: white;
+  margin-top: -30px;
   margin-bottom: 0px;
 }
 .reqdemo h2{
   margin-top: 0px;
   font-size: 32px;
   color: white;
-   margin-right: px;
+  margin-top: -30px;
 }
-.reqdemo p{
-  font-size: x-small;
+.reqdemo li{
+  font-size: small;
   margin-left: 100px;
-  padding-top: 30px;
+  padding-top: 90px;
   margin-right: 700px;
   color: white;
   margin-bottom: 0px;
@@ -381,10 +383,12 @@ border-bottom-right-radius:20px ;
   margin-left: 800px;
   margin-right: 0px;
   padding: 5px;
+  
 }
 
 
 .footer {
+  margin-top: -50px;
   justify-content: center;
   background-color: #000000;
   color: #ccc;
