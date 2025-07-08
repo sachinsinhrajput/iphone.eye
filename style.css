@@ -78,8 +78,8 @@ body{
   background-size:cover;
   height: 565px;
   border-radius: 10px;
-  width:900px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 60px;
   margin-top: 15px;
 }
@@ -103,30 +103,35 @@ body{
   text-align: center;
   margin-top: 40px;
 }
+
+
+.supporthadding{
+  text-align: center;
+}
 .smalltext {
     font-size:x-small;
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: -20px;
+
 }
 .center{
   font-size: xx-large;
-  margin-left:30px;
-
+  margin-left:20px;
 }
 .big{
   font-size: xx-large;
-  margin-left: 170px; 
+  margin-right: 170px;
 }
-.supporthadding h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 32px;
-}
+
+
 .content {
     display: flex;
+    justify-content: center;
     gap: 80px;
     margin-top: 0px;
     margin-bottom: 60px;
+    margin-top: 50px;
 }
 .card {
     margin-left: 80px;
@@ -134,7 +139,6 @@ body{
     border-radius: 12px;
     border: 20px solid #dbf5b2;
     padding: 20px;
-    max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 350px;
 }
@@ -196,6 +200,7 @@ body{
 .blackbody{
   background-color: #0b0b0b;
   color: #fff;
+  flex-direction: column;
   height: 1000px;
   border-radius: 20px;
 }
@@ -239,7 +244,6 @@ body{
   padding-bottom: 20px;
   margin-left: 150px;
 }
-
 .blackcard-content h2 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -263,13 +267,14 @@ body{
 
 
 .paragraph{
+  text-align: center;
+  margin-left: 140px;
   background-color: #124d43;
-  text-align: left;
   padding-left: 80px;
   border: 1px solid #000000 ;
   height: 280px;
-  width:  550px ;
-  margin-left: 135px;
+  width: 550px;
+
   border-radius: 20px;
   font-weight: 500;
 }
@@ -303,6 +308,7 @@ body{
   margin: 8px;
   color: #000000;
   text-align: center;
+  font-weight: 400;
 }
 
 .builder{
@@ -311,8 +317,8 @@ body{
   margin-top: 400px;
 }
 .buiderhadding { 
-  font-weight: bold;
-  font-size: 32px;
+  font-weight: 400;
+  font-size: 25px;
 }
 .builder p{
   font-weight: 300;
@@ -389,6 +395,9 @@ border-bottom-right-radius:20px ;
 
 .footer {
   margin-top: -50px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
   justify-content: center;
   background-color: #000000;
   color: #ccc;
