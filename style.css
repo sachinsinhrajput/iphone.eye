@@ -261,10 +261,9 @@ body{
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 25%;
-  margin-right:25%;
+  margin-left: 15%;
+  margin-right:15%;
   background-color: #204e4d;
-  padding-left: 80px;
   border: 1px solid #000000 ;
   height: 280px;
   border-radius: 20px;
@@ -442,8 +441,9 @@ border-bottom-right-radius:20px ;
   border-radius: 3px;
 }
 /* ---------- Mobile Devices (up to 600px) ---------- */
-@media only screen and (max-width: 600px) {
-  .header, .button, .content, .card-container, .blackcard, .stats, .footer-columns {
+@media only screen and (max-width: 600px) 
+{
+  .header, .button, .content, .card-container, .blackcard, .stats {
     flex-direction: column;
     align-items: center;
   }
@@ -471,28 +471,58 @@ border-bottom-right-radius:20px ;
     margin-left: auto;
     margin-right: auto;
   }
+  .paragraph{
+    height: 243px;
+  }
+  .paragraph-content{
+    font-size: 10px;
+  }
+  .paragraph .author{
+    margin-left: 28px;
+  }
+  .blackbody{
+    height: 1641px;
+  }
+  .blackbody .intro{
+    text-align: center;
+    margin-left: 0px;
+  }
 .blackbody h1{
   margin-left: 41px;
 
 }
-  .blackcard img {
-    margin-left: 0;
-  }
-
-  .blackcard-content, .blackcard-content h2, .blackcard-content p, .blackcard-content a {
-    margin-left: 0;
-    text-align: center;
-  }
-
+ .blackcard-content{
+  text-align: center;
+  margin-left: 34%;
+ }
+.blackcard-content a{
+  display: contents;
+}
+.builder{
+  margin-top: 462px;
+}
+.whitebody{
+  margin-top: -10px;
+  height: 100%;
+}
   .reqdemo li {
-    margin-left: 20px;
+    font-size: xx-small;
+    margin-left: -55px;
     margin-right: 20px;
     padding-top: 30px;
   }
-
-  .reqbutton {
-    margin-left: 0;
+  .reqdemo h1{
     margin-top: 20px;
+    font-size: x-large;
+    margin-left: -75px;
+  }
+.reqdemo h2{
+  font-size: x-large;
+  margin-top: -100px;
+}
+  .reqbutton {
+    margin-left: 78px;
+    margin-top: 78px;
   }
 
   .features {
@@ -500,20 +530,36 @@ border-bottom-right-radius:20px ;
     padding-right: 20px;
   }
 
+   .footer-column{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+    border-bottom: 2px solid #d81212  ;
+   }
+   .footer-column li {
+    margin-bottom: 5px;
+    font-size: smaller;
+   }
   .footer-columns {
     flex-direction: column;
     align-items: center;
   }
+  .footer-column h4{
+    margin-bottom:0px ;
+  }
 
   .footer-bottom {
+    margin-top: 8px;
     flex-direction: column;
     gap: 10px;
+    border-top:4px solid #fff ;
   }
 }
 
 /* ---------- Tablet Devices (601px to 900px) ---------- */
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .header, .button, .content, .card-container, .blackcard, .footer-columns {
+    height: 19%;
     flex-direction: column;
     align-items: center;
   }
@@ -533,6 +579,11 @@ border-bottom-right-radius:20px ;
     margin-left: auto;
     margin-right: auto;
   }
+  .whitebody{
+  margin-top: -10px;
+  height: 100%;
+  width: 94%;
+}
 
   .features {
     padding-left: 50px;
@@ -540,19 +591,51 @@ border-bottom-right-radius:20px ;
   }
 
   .reqbutton {
+    margin-top: 16px;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
 
-  .reqdemo li {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-top: 50px;
+ .reqdemo li {
+    font-size: small;
+    margin-left: -128px;
+    margin-right: 20px;
+    padding-top: 30px;
+  }
+   .reqdemo h1{
+    margin-top: 64px;
+    font-size: x-large;
+    margin-left: -103px;
+  }
+.reqdemo h2{
+  font-size: xx-large;
+  margin-top: -160px;
+}
+  .footer-column{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+    border-bottom: 2px solid #d81212  ;
+   }
+   .footer-column li {
+    margin-bottom: 5px;
+    font-size: smaller;
+   }
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -240px;
+    margin-top: 232px;
+  }
+  .footer-column h4{
+    margin-bottom:0px ;
   }
 
   .footer-bottom {
-    flex-direction: column;
+    margin-top: -3px;
     gap: 10px;
+    border-top:4px solid #fff ;
   }
 }
